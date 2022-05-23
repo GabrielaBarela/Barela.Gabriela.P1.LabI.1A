@@ -1,0 +1,205 @@
+# depslib dependency file v1.0
+1653180357 source:c:\users\windows 10-64bit\desktop\codeblocks\programas\ppl_1\aerolineas.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<conio.h>
+	"vuelo.h"
+	"utn.h"
+	"aerolineas.h"
+
+1653180356 c:\users\windows 10-64bit\desktop\codeblocks\programas\ppl_1\vuelo.h
+
+1653180356 c:\users\windows 10-64bit\desktop\codeblocks\programas\ppl_1\utn.h
+
+1653180517 c:\users\windows 10-64bit\desktop\codeblocks\programas\ppl_1\aerolineas.h
+
+1653183203 source:c:\users\windows 10-64bit\desktop\codeblocks\programas\ppl_1\avion.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<conio.h>
+	"vuelo.h"
+	"utn.h"
+	"avion.h"
+	"aerolineas.h"
+	"tipo.h"
+
+1653182546 c:\users\windows 10-64bit\desktop\codeblocks\programas\ppl_1\avion.h
+	"utn.h"
+	"aerolineas.h"
+	"tipo.h"
+
+1653180357 c:\users\windows 10-64bit\desktop\codeblocks\programas\ppl_1\tipo.h
+
+1653180356 source:c:\users\windows 10-64bit\desktop\codeblocks\programas\ppl_1\destino.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<conio.h>
+	"vuelo.h"
+	"destino.h"
+	"utn.h"
+
+1653180357 c:\users\windows 10-64bit\desktop\codeblocks\programas\ppl_1\destino.h
+
+1653182546 source:c:\users\windows 10-64bit\desktop\codeblocks\programas\ppl_1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<conio.h>
+	"avion.h"
+	"aerolineas.h"
+	"tipo.h"
+	"destino.h"
+	"fecha.h"
+	"vuelo.h"
+
+1653180356 c:\users\windows 10-64bit\desktop\codeblocks\programas\ppl_1\fecha.h
+
+1653180356 source:c:\users\windows 10-64bit\desktop\codeblocks\programas\ppl_1\tipo.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<conio.h>
+	"vuelo.h"
+	"utn.h"
+	"tipo.h"
+
+1653180357 source:c:\users\windows 10-64bit\desktop\codeblocks\programas\ppl_1\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"utn.h"
+
+1653180357 source:c:\users\windows 10-64bit\desktop\codeblocks\programas\ppl_1\vuelo.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<conio.h>
+	"vuelo.h"
+	"aerolineas.h"
+	"tipo.h"
+	"avion.h"
+	"destino.h"
+	"fecha.h"
+
+1653180357 source:c:\users\vaio\desktop\facultad\codeblocks\programaciones\proyecto 1\ppl_1\aerolineas.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<conio.h>
+	"vuelo.h"
+	"utn.h"
+	"aerolineas.h"
+
+1653306686 c:\users\vaio\desktop\facultad\codeblocks\programaciones\proyecto 1\ppl_1\vuelo.h
+	"aerolineas.h"
+	"tipo.h"
+	"avion.h"
+	"destino.h"
+	"fecha.h"
+
+1653259207 c:\users\vaio\desktop\facultad\codeblocks\programaciones\proyecto 1\ppl_1\utn.h
+
+1653180517 c:\users\vaio\desktop\facultad\codeblocks\programaciones\proyecto 1\ppl_1\aerolineas.h
+
+1653259165 source:c:\users\vaio\desktop\facultad\codeblocks\programaciones\proyecto 1\ppl_1\destino.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<conio.h>
+	"vuelo.h"
+	"destino.h"
+	"utn.h"
+
+1653259165 c:\users\vaio\desktop\facultad\codeblocks\programaciones\proyecto 1\ppl_1\destino.h
+
+1653317274 source:c:\users\vaio\desktop\facultad\codeblocks\programaciones\proyecto 1\ppl_1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<conio.h>
+	"avion.h"
+	"aerolineas.h"
+	"tipo.h"
+	"destino.h"
+	"fecha.h"
+	"vuelo.h"
+	"piloto.h"
+
+1653317164 c:\users\vaio\desktop\facultad\codeblocks\programaciones\proyecto 1\ppl_1\avion.h
+	"utn.h"
+	"aerolineas.h"
+	"tipo.h"
+	"piloto.h"
+
+1653180357 c:\users\vaio\desktop\facultad\codeblocks\programaciones\proyecto 1\ppl_1\tipo.h
+
+1653180356 c:\users\vaio\desktop\facultad\codeblocks\programaciones\proyecto 1\ppl_1\fecha.h
+
+1653180356 source:c:\users\vaio\desktop\facultad\codeblocks\programaciones\proyecto 1\ppl_1\tipo.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<conio.h>
+	"vuelo.h"
+	"utn.h"
+	"tipo.h"
+
+1653180357 source:c:\users\vaio\desktop\facultad\codeblocks\programaciones\proyecto 1\ppl_1\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"utn.h"
+
+1653317631 source:c:\users\vaio\desktop\facultad\codeblocks\programaciones\proyecto 1\ppl_1\vuelo.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<conio.h>
+	"vuelo.h"
+	"aerolineas.h"
+	"tipo.h"
+	"avion.h"
+	"destino.h"
+	"fecha.h"
+
+1653317164 source:c:\users\vaio\desktop\facultad\codeblocks\programaciones\proyecto 1\ppl_1\avion.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<conio.h>
+	"vuelo.h"
+	"utn.h"
+	"avion.h"
+	"aerolineas.h"
+	"tipo.h"
+	"piloto.h"
+
+1653307713 c:\users\vaio\desktop\facultad\codeblocks\programaciones\proyecto 1\ppl_1\piloto.h
+
+1653308135 source:c:\users\vaio\desktop\facultad\codeblocks\programaciones\proyecto 1\ppl_1\piloto.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<conio.h>
+	"vuelo.h"
+	"utn.h"
+	"piloto.h"
+
