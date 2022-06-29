@@ -1,0 +1,56 @@
+# depslib dependency file v1.0
+1656471881 source:c:\users\vaio\desktop\facultad\codeblocks\programaciones\proyecto 1\segundo parcial\spl\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1656471851 c:\users\vaio\desktop\facultad\codeblocks\programaciones\proyecto 1\segundo parcial\spl\linkedlist.h
+
+1656512357 source:c:\users\vaio\desktop\facultad\codeblocks\programaciones\proyecto 1\segundo parcial\spl\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	"LinkedList.h"
+	"controller.h"
+	"menu.h"
+	"peliculas.h"
+
+1656510596 source:c:\users\vaio\desktop\facultad\codeblocks\programaciones\proyecto 1\segundo parcial\spl\peliculas.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	<ctype.h>
+	"peliculas.h"
+	"LinkedList.h"
+
+1656509715 c:\users\vaio\desktop\facultad\codeblocks\programaciones\proyecto 1\segundo parcial\spl\peliculas.h
+
+1656512219 source:c:\users\vaio\desktop\facultad\codeblocks\programaciones\proyecto 1\segundo parcial\spl\controller.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"peliculas.h"
+	"controller.h"
+	"parser.h"
+
+1656458548 source:c:\users\vaio\desktop\facultad\codeblocks\programaciones\proyecto 1\segundo parcial\spl\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"peliculas.h"
+	"parser.h"
+
+1656275137 c:\users\vaio\desktop\facultad\codeblocks\programaciones\proyecto 1\segundo parcial\spl\parser.h
+
+1656511643 c:\users\vaio\desktop\facultad\codeblocks\programaciones\proyecto 1\segundo parcial\spl\controller.h
+
+1656471718 c:\users\vaio\desktop\facultad\codeblocks\programaciones\proyecto 1\segundo parcial\spl\menu.h
+
+1656511643 source:c:\users\vaio\desktop\facultad\codeblocks\programaciones\proyecto 1\segundo parcial\spl\menu.c
+	<stdio.h>
+	<stdlib.h>
+	"menu.h"
+
