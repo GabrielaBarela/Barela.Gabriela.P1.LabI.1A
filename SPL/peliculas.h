@@ -22,7 +22,7 @@ void mostrarMovie(eMovie* movie);
 
 void* movie_mapRaiting(void* pMovie);
 
-int movie_mapeoGenero(void* pMovie);
+int movie_Genero(int num1, char* pGenero);
 
 void* movie_mapGenero(void* pMovie);
 

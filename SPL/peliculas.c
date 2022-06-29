@@ -49,61 +49,56 @@ void* movie_mapRaiting(void* pMovie)
 
     return movie;
 }
-/*
+
 void* movie_mapGenero(void* pMovie)
 {
     int aleatorio;
     int min = 1;
-    int max=40;
+    int max=4;
+    eMovie* auxMovie=NULL;
+    char genero[50];
 
-    eMovie* movie= NULL;
-
-    movie = (eMovie*) pMovie;
-
-    aleatorio =((rand()%(max-min +1))+min)/10;
-
-    movie_mapeoGenero(aleatorio);
-
-    return movie;
-}
-
-int movie_mapeoGenero(void* pMovie)
-{
-    int todoOk=-1;
-
-    eMovie* auxMovie;
-
-    char auxGenero[50];
-
-    if (pMovie != NULL)
+    if(pMovie!=NULL)
     {
-        auxGenero =(eMovie*) pMovie;
+        auxMovie=(eMovie*)pMovie;
 
-        movie_getGenero(auxMovie,auxGenero);
-
-        if(auxMovie==1)
+        if(auxMovie!=NULL)
         {
-            movie_setGenero(pMovie,"Drama");
-            todoOk=1;
-        }
-        else if (auxMovie==2)
-        {
-            movie_setGenero(pMovie,"Comedia");
-            todoOk=1;
-        }
-        else if (auxMovie==3)
-        {
-            movie_setGenero(pMovie,"Accion");
-            todoOk=1;
-        }
-        else if (auxMovie==4)
-        {
-            movie_setGenero(pMovie,"Terror");
-            todoOk=1;
+            aleatorio=rand()%(max-min+1)+min;
+            movie_Genero(aleatorio,genero);
+            movie_setGenero(auxMovie,genero);
         }
     }
-    return todoOk;
-}*/
+    return auxMovie;
+}
+
+int movie_Genero(int num1, char* pGenero)
+{
+    int ret=0;
+    if(num1<=4 && num1>=1 && pGenero!=NULL)
+    {
+        if(num1==1)
+        {
+            strcpy(pGenero,"DRAMA");
+        }
+        else if(num1==2)
+        {
+            strcpy(pGenero,"COMEDIA");
+        }
+        else if(num1==3)
+        {
+            strcpy(pGenero,"ACCION");
+        }
+        else if(num1==4)
+        {
+            strcpy(pGenero,"TERROR");
+        }
+        ret=1;
+    }
+    return ret;
+}
+
+
 //SETTERS
 
 int movie_setId(eMovie* this, int id)

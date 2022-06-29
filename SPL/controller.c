@@ -63,7 +63,7 @@ int controller_mapRaiting(LinkedList* pArrayMovie)
     int todoOk=0;
     if(pArrayMovie != NULL)
     {
-        ll_map(pArrayMovie,movie_mapRaiting);
+        ll_map(pArrayMovie,movie_mapGenero);
         todoOk=1;
     }
     return todoOk;

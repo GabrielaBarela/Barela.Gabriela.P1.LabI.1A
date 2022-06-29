@@ -49,8 +49,8 @@ int main()
             controller_ListMovie(listMovieNULL);
             break;
         case 4:
-            /*listMovieNULL=ll_map(listMovie,movie_mapeoGenero);
-            controller_ListMovie(listMovie);*/
+            controller_mapRaiting(listMovieNULL);
+            controller_ListMovie(listMovieNULL);
             break;
         case 5:
             break;
