@@ -326,3 +326,5 @@ int ll_sort(LinkedList* this, int (*pFunc)(void* ,void*), int order);
 // DEL PARCIAL
 
 int ll_map(LinkedList* this, void*(*pFunc)(void* element));
+
+LinkedList* ll_filter(LinkedList* this, int(*pfunc)(void*));

@@ -52,10 +52,10 @@ void* movie_mapRaiting(void* pMovie)
 
 void* movie_mapGenero(void* pMovie)
 {
+    eMovie* auxMovie=NULL;
     int aleatorio;
     int min = 1;
     int max=4;
-    eMovie* auxMovie=NULL;
     char genero[50];
 
     if(pMovie!=NULL)
@@ -253,6 +253,95 @@ int movie_sortGeneroxRaiting(void* tipo1,void* tipo2)
 }
 
 
+int movie_filtrarTERROR(void*pGenero)
+{
+    int todoOk=-1;
+    eMovie* auxMovie;
+    char auxGenero[50]={"TERROR"};
+
+    if(pGenero != NULL)
+    {
+        auxMovie=(eMovie*) pGenero;
+
+        if(strcmp(auxMovie->genero,auxGenero)==0)
+        {
+            todoOk=1;
+        }
+        else
+        {
+            todoOk=0;
+        }
+    }
+    return todoOk;
+}
+
+
+
+int movie_filtrarCOMEDIA(void*pGenero)
+{
+    int todoOk=-1;
+    eMovie* auxMovie;
+    char auxGenero[50]={"COMEDIA"};
+
+    if(pGenero != NULL)
+    {
+        auxMovie=(eMovie*) pGenero;
+
+        if(strcmp(auxMovie->genero,auxGenero)==0)
+        {
+            todoOk=1;
+        }
+        else
+        {
+            todoOk=0;
+        }
+    }
+    return todoOk;
+}
+
+
+int movie_filtrarDRAMA(void*pGenero)
+{
+    int todoOk=-1;
+    eMovie* auxMovie;
+    char auxGenero[50]={"DRAMA"};
+    if(pGenero != NULL)
+    {
+        auxMovie=(eMovie*) pGenero;
+        if(strcmp(auxMovie->genero,auxGenero)==0)
+        {
+            todoOk=1;
+        }
+        else
+        {
+            todoOk=0;
+        }
+    }
+    return todoOk;
+}
+
+
+int movie_filtraraACCION(void*pGenero)
+{
+    int todoOk=-1;
+    eMovie* auxMovie;
+    char auxGenero[50]={"ACCION"};
+
+    if(pGenero != NULL)
+    {
+        auxMovie=(eMovie*) pGenero;
+
+        if(strcmp(auxMovie->genero,auxGenero)==0)
+        {
+            todoOk=1;
+        }
+        else
+        {
+            todoOk=0;
+        }
+    }
+    return todoOk;
+}
 
 
 

@@ -29,6 +29,13 @@ void* movie_mapGenero(void* pMovie);
 int movie_sortGeneroxRaiting(void* tipo1,void* tipo2);
 
 //int movie_mapeoRaitig(eMovie* pMovie);
+int movie_filtraraACCION(void*pGenero);
+
+int movie_filtrarTERROR(void*pGenero);
+
+int movie_filtrarCOMEDIA(void*pGenero);
+
+int movie_filtrarDRAMA(void*pGenero);
 
 //SETTERS
 

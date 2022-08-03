@@ -1,13 +1,13 @@
 # depslib dependency file v1.0
-1656514121 source:c:\users\vaio\desktop\facultad\codeblocks\programaciones\proyecto 1\segundo parcial\spl\linkedlist.c
+1659221417 source:c:\users\vaio\desktop\facultad\codeblocks\programaciones\proyecto 1\segundo parcial\spl\linkedlist.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"LinkedList.h"
 
-1656514121 c:\users\vaio\desktop\facultad\codeblocks\programaciones\proyecto 1\segundo parcial\spl\linkedlist.h
+1659221417 c:\users\vaio\desktop\facultad\codeblocks\programaciones\proyecto 1\segundo parcial\spl\linkedlist.h
 
-1656514265 source:c:\users\vaio\desktop\facultad\codeblocks\programaciones\proyecto 1\segundo parcial\spl\main.c
+1659483917 source:c:\users\vaio\desktop\facultad\codeblocks\programaciones\proyecto 1\segundo parcial\spl\main.c
 	<stdio.h>
 	<stdlib.h>
 	<conio.h>
@@ -17,7 +17,7 @@
 	"menu.h"
 	"peliculas.h"
 
-1656513713 source:c:\users\vaio\desktop\facultad\codeblocks\programaciones\proyecto 1\segundo parcial\spl\peliculas.c
+1659305556 source:c:\users\vaio\desktop\facultad\codeblocks\programaciones\proyecto 1\segundo parcial\spl\peliculas.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -26,17 +26,18 @@
 	"peliculas.h"
 	"LinkedList.h"
 
-1656513713 c:\users\vaio\desktop\facultad\codeblocks\programaciones\proyecto 1\segundo parcial\spl\peliculas.h
+1659232215 c:\users\vaio\desktop\facultad\codeblocks\programaciones\proyecto 1\segundo parcial\spl\peliculas.h
 
-1656514265 source:c:\users\vaio\desktop\facultad\codeblocks\programaciones\proyecto 1\segundo parcial\spl\controller.c
+1659308598 source:c:\users\vaio\desktop\facultad\codeblocks\programaciones\proyecto 1\segundo parcial\spl\controller.c
 	<stdio.h>
 	<stdlib.h>
 	"LinkedList.h"
 	"peliculas.h"
 	"controller.h"
 	"parser.h"
+	"menu.h"
 
-1656458548 source:c:\users\vaio\desktop\facultad\codeblocks\programaciones\proyecto 1\segundo parcial\spl\parser.c
+1659308422 source:c:\users\vaio\desktop\facultad\codeblocks\programaciones\proyecto 1\segundo parcial\spl\parser.c
 	<stdio.h>
 	<stdlib.h>
 	"LinkedList.h"
@@ -45,11 +46,11 @@
 
 1656275137 c:\users\vaio\desktop\facultad\codeblocks\programaciones\proyecto 1\segundo parcial\spl\parser.h
 
-1656511643 c:\users\vaio\desktop\facultad\codeblocks\programaciones\proyecto 1\segundo parcial\spl\controller.h
+1659274649 c:\users\vaio\desktop\facultad\codeblocks\programaciones\proyecto 1\segundo parcial\spl\controller.h
 
-1656471718 c:\users\vaio\desktop\facultad\codeblocks\programaciones\proyecto 1\segundo parcial\spl\menu.h
+1659221417 c:\users\vaio\desktop\facultad\codeblocks\programaciones\proyecto 1\segundo parcial\spl\menu.h
 
-1656513766 source:c:\users\vaio\desktop\facultad\codeblocks\programaciones\proyecto 1\segundo parcial\spl\menu.c
+1659274758 source:c:\users\vaio\desktop\facultad\codeblocks\programaciones\proyecto 1\segundo parcial\spl\menu.c
 	<stdio.h>
 	<stdlib.h>
 	"menu.h"

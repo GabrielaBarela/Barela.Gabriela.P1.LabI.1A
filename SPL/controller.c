@@ -4,20 +4,20 @@
 #include "peliculas.h"
 #include "controller.h"
 #include "parser.h"
+#include "menu.h"
 
 int controller_loadFromText(char* path, LinkedList* pArrayListMovie)
 {
-    FILE*pArchivo;
-    if((pArchivo=fopen(path,"r"))==NULL)
+    int retorno=-1;
+    FILE* pFile=fopen(path, "r");
+
+    if(pArrayListMovie!=NULL && path!=NULL)
     {
-        printf("No se puedo leer\n");
-        exit(1);
+        printf("Invoco al controller texto\n");
+        parser_MovieFromText(pFile, pArrayListMovie);
+        retorno=1;
     }
-    else
-    {
-        parser_MovieFromText(pArchivo,pArrayListMovie);
-        return 1;
-    }
+    return retorno;
 }
 
 int controller_ListMovie(LinkedList* pArrayListMovie)
@@ -28,9 +28,9 @@ int controller_ListMovie(LinkedList* pArrayListMovie)
     char titulo_Aux[50];
     char genero_Aux[50];
     float raiting_Aux;
-
     int lenList= ll_len(pArrayListMovie);
     int i;
+
     if(pArrayListMovie != NULL)
     {
         if(lenList>0)
@@ -60,14 +60,15 @@ int controller_ListMovie(LinkedList* pArrayListMovie)
 
 int controller_mapRaiting(LinkedList* pArrayMovie)
 {
-    int todoOk=0;
+    int todoOk=-1;
     if(pArrayMovie != NULL)
     {
         ll_map(pArrayMovie,movie_mapGenero);
-        todoOk=1;
+        todoOk=0;
     }
     return todoOk;
 }
+
 int controller_SaveAsText(char*path, LinkedList* pArrayListPeliculas)
 {
     int todoOk=-1;
@@ -114,12 +115,57 @@ int controller_SaveAsText(char*path, LinkedList* pArrayListPeliculas)
             printf("Se ha guardado correctamente el listado!\n");
         }
     }
-
     return todoOk;
 }
 
 
+int controller_GenerosFiltrados(LinkedList* pArrayListMovies)
+{
+    int todoOk=-1;
+    int choice;
+    LinkedList* auxTERROR =NULL;
+    LinkedList* auxACCION =NULL;
+    LinkedList* auxCOMEDIA =NULL;
+    LinkedList* auxDRAMA =NULL;
 
+    if (pArrayListMovies !=NULL)
+    {
+        do
+        {
+            choice=menuFiltradoGenero();
+            switch(choice)
+            {
+                case 1:
+                    auxACCION= ll_filter(pArrayListMovies,movie_filtraraACCION);
+                    controller_ListMovie(auxACCION);
+                    controller_SaveAsText("ACCION.csv",auxACCION);
+                    break;
+                case 2:
+                    auxTERROR=ll_filter(pArrayListMovies,movie_filtrarTERROR);
+                    controller_ListMovie(auxTERROR);
+                    controller_SaveAsText("TERROR.csv",auxTERROR);
+                    break;
+                case 3:
+                    auxDRAMA=ll_filter(pArrayListMovies,movie_filtrarDRAMA);
+                    controller_ListMovie(auxDRAMA);
+                    controller_SaveAsText("DRAMA.csv",auxDRAMA);
+                    break;
+                case 4:
+                    auxCOMEDIA=ll_filter(pArrayListMovies,movie_filtrarCOMEDIA);
+                    controller_ListMovie(auxCOMEDIA);
+                    controller_SaveAsText("COMEDIA.csv", auxCOMEDIA);
+                    break;
+                case 5:
+                    break;
+                default:
+                    printf("Opcion Invalida\n");
+                break;
+            }
+        }
+        while(choice!=5);
+    }
+    return todoOk;
+}
 
 
 
